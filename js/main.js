@@ -19,9 +19,9 @@ let FavColorUser = prompt('Inserisci qui il tuo colore preferito');
 console.log(FavColorUser);
 
 //restituire il nome della password con nome + cognome + colore + 23
-let AgeUser = parseInt(23);
+const NumberID = parseInt(23);
 
-let PwUser = NameUser + SurenameUser + FavColorUser + AgeUser;
+let PwUser = NameUser + SurenameUser + FavColorUser + NumberID;
 
 document.getElementById('PwText').innerHTML = ' La tua password è: ' + PwUser;
 
