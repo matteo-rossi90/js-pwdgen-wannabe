@@ -1,0 +1,67 @@
+/* regole generali */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ontenitore generale */
+
+#container{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* prorprietà box */
+#box-text,
+#box-pw{
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+/* box che contiene il titolo */
+#box-text{
+    margin-top: 40px;
+    background-color: rgb(219, 219, 219);
+}
+
+/* box che contiene il risultato della password */
+#box-pw{
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+/* proprietà testi */
+
+h1, h3{
+    margin: 25px 0;
+}
+
+h3{
+    color: transparent;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    animation: effect 2s ease infinite;
+}
+
+/* effetto che permette al testo di lampeggiare */
+
+@keyframes effect {
+    0% {
+        color: transparent;
+    }
+ 
+    100% {
+        color: yellow;
+    }
+
+}
